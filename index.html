@@ -63,7 +63,7 @@
           }
           `;
 
-      video = document.getElementById("video");
+      var video = document.getElementById("video");
       var texture = new THREE.VideoTexture(video);
       const loader = new THREE.TextureLoader();
       texture.minFilter = THREE.NearestFilter;
